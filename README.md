@@ -16,7 +16,8 @@ Key steps Follow
    
        1) TF-IDF (Term Frequency-Inverse Document Frequency)
        2) Score of words in a particular row =
-       (Number of times words in row / Total number of words in row) * log (Number of rows / Number of rows containing the word in them)
+             (Number of times words in row / Total number of words in row) *
+              log (Number of rows / Number of rows containing the word in them)
 6) Apply Machine Learning
     
       1) Split the data
@@ -36,7 +37,7 @@ Key steps Follow
            3) Fit (learning process)
            4) Predict
               
-      4) Evaluation matric (Check whether the model is correct or not)
+      4) Evaluation metric (Check whether the model is correct or not)
          
            1) Regression - The evaluation metric for regression is R^2 which lies between minus infinity to +1.
               A higher the R^2 is a better model
@@ -45,5 +46,5 @@ Key steps Follow
                2) F1 score [ F1 score between 0 (low) to 1 (high), a Higher F1 score is better for the model ]
 
 
-   7) Sentiment analysis
+7) Sentiment analysis
   
