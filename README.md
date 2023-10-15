@@ -9,19 +9,20 @@ Key steps Follow
        3) Punctual and Special character removal and Making text lowercase
        4) Stop word removal (is, a, an, the, them, couldn't, ....)
        5) Lemmatization and Stemming (Extract only the root words from data)
-5) Exploratory Data Analysis (EDA)
+4) Exploratory Data Analysis (EDA)
    
        1) Generate a Word Cloud by plotting the data.
-7) Encoding data (Text data to Numerical data)
+5) Encoding data (Text data to Numerical data)
    
        1) TF-IDF (Term Frequency-Inverse Document Frequency)
-       2) Score of words in a particular row = (Number of times words in row / Total number of words in row) * log (Number of rows / Number of rows containing the word in them)
-9) Apply Machine Learning
+       2) Score of words in a particular row =
+       (Number of times words in row / Total number of words in row) * log (Number of rows / Number of rows containing the word in them)
+6) Apply Machine Learning
     
-       1) Split the data
-           Features (X-axis) (2D Matrix)
-           Targets (Y - axis) (1D Array)
-           Train, Test, Split, Random state
+      1) Split the data
+           1) Features (X-axis) (2D Matrix)
+           2) Targets (Y - axis) (1D Array)
+           3) Train, Test, Split, Random state
    
       2) Scaling the data
            1) Import model
@@ -42,6 +43,7 @@ Key steps Follow
            2) Classification - The evaluation metric for classification is
                1) Accuracy score [ Higher accuracy is a better model (The value should be near 1) ]
                2) F1 score [ F1 score between 0 (low) to 1 (high), a Higher F1 score is better for the model ]
+
 
    7) Sentiment analysis
   
